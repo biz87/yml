@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="{'' | date : 'Y-m-d H:i'}">
+	<shop>
+		<name>{'site_name' | config}</name>
+		<company>ИП Гусев Павел Сергеевич</company>
+		<url>{'site_url' | config}</url>
+		<platform>Modx Revolution</platform>
+		<version>{'settings_version' | config}</version>
+		<cpa>1</cpa>
+		<currencies>
+			<currency id="RUR" rate="1"/>
+		</currencies>
+		{'yamarket' | snippet}
+	</shop>
+</yml_catalog>
